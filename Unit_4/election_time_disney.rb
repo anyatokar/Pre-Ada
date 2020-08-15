@@ -36,7 +36,7 @@ puts
 
 winners = Array.new
 
-# interates through counts hash
+# iterates through counts hash
 # populates winners (array) with candidates (keys) which have 
 # max values (or number of votes)
 counts.each do |k, v| 

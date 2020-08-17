@@ -1,6 +1,6 @@
 # prompt user to enter password
 def enter_pass
-  print "Enter password: "
+  print "Enter new password: "
   password = gets.chomp
   return password
 end

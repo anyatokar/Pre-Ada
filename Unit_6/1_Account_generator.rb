@@ -43,8 +43,4 @@ puts "STUDENT ACCOUNTS:\n ------------------------------"
 count.times do |i|
   puts names[i] + " | " + ids[i].to_s + " | " + emails[i]
   
-#   + ids[i]
 end
-# count.times do |i|
-#   print names[0] + " | " ids[0] + " | " << emails[0]
-# end

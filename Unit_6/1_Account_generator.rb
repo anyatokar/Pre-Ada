@@ -25,12 +25,10 @@ count.times do |i|
   email = ""
 
 # format: (first inital)+(last name)+
-# names.each do |name|
   split_name = names[i].split
   email << split_name[0][0] + split_name[1]
 
 # (last 3 digits of student ID number)
-# ids.each { |id| email << id.to_s[-3..-1] }
   email << ids[i].to_s[-3..-1]
 
 # @adadevelopersacademy.org
